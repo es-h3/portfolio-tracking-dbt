@@ -42,7 +42,7 @@ models:
       +materialized: view
       +schema: STAGING
     refined:
-      +materialized: table
+      +materialized: view
       +schema: REFINED
     marts:
       portfolio:
